@@ -16,7 +16,10 @@ My notes and Python implementation for the DeepLearning.AI Machine Learning Spec
     * **0 (Negative Class):** e.g., Benign (not cancerous).
     * **1 (Positive Class):** e.g., Malignant (cancerous).
 * **The "Threshold" Concept:** In classification, the model has to decide where to draw the line between one category and another.
-
+### Week 1: Supervised vs. Unsupervised Learning
+* **Supervised Learning:** I give the computer the data AND the "right answer" (labels). It learns to predict the label for new data.
+* **Unsupervised Learning:** I give the computer data with NO labels. The computer has to find patterns or structures on its own.
+* **Clustering:** A type of unsupervised learning where the computer groups similar data points together (like grouping news stories by topic or customers by shopping habits).
 ## 📖 Vocabulary Log
 | Term | Simple Definition |
 | :--- | :--- |
@@ -25,3 +28,5 @@ My notes and Python implementation for the DeepLearning.AI Machine Learning Spec
 | **Feature ($x$)** | The input data given to the model. |
 | **Target ($y$)** | The final answer/prediction we want. |
 | **Classification** | Predicting a category or label (like "Spam" vs "Not Spam") instead of a number. |
+| **Unsupervised Learning** | Finding hidden patterns in data that has no "right answer" labels. |
+| **Clustering** | Automatically grouping similar data points together without being told what the groups are. |
