@@ -20,6 +20,11 @@ My notes and Python implementation for the DeepLearning.AI Machine Learning Spec
 * **Supervised Learning:** I give the computer the data AND the "right answer" (labels). It learns to predict the label for new data.
 * **Unsupervised Learning:** I give the computer data with NO labels. The computer has to find patterns or structures on its own.
 * **Clustering:** A type of unsupervised learning where the computer groups similar data points together (like grouping news stories by topic or customers by shopping habits).
+## First Implementation: Manual Linear Regression
+I wrote a Python script to manually set the weights ($w$) and bias ($b$) for a housing price model. 
+
+* **What I realized:** By manually changing $w$ from 100 to 200, I could make the model fit the data perfectly. 
+* **The Goal of ML:** Instead of me guessing that $w=200$, the "Learning Algorithm" will eventually figure that out by itself using a **Cost Function**.
 ## 📖 Vocabulary Log
 | Term | Simple Definition |
 | :--- | :--- |
